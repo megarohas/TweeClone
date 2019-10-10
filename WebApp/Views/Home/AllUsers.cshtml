@@ -1,0 +1,66 @@
+﻿@model WebApp.Models.UsersWP
+@{
+    Layout = null;
+}
+@using Class2;
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="AllUsers" content="width=device-width" />
+    <title>Список пользователей</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <style>
+        body {
+           background-color: #F1F1F1;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:  #468847;
+        }
+        div#cycle>div{
+            margin-bottom: 30px;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <div class="panel-success">
+        <div class="panel-heading text-center">
+            <div>
+                @Html.ActionLink("Моя страница", "Inbox", null, new { @class = "btn btn-success" })
+                
+            </div>
+            <h4>Пользователи "WebApp"</h4>  
+            
+            </div>
+        </div>
+    <br /> 
+            <div class="container">
+                <div id="cycle" class="row">
+
+                   
+                        @for (int i = 0; i < Model.Usrs.Count; i++)
+                        {
+                        
+                            <div class="text-center col-md-3">
+
+                               
+                               
+                                <a href='@Url.Action("PersTweet", "Home", new { name = Model.Usrs[i].Login })'>@Html.ImageSmall(@Model.Pics.Find(x => x.author == Model.Usrs[i].Login).image) </a>
+                                <br />
+
+                                 @Html.ActionLink("@" + @Model.Usrs[i].Login, "PersTweet", new { name = Model.Usrs[i].Login })
+                                
+                            </div>
+                           
+                        
+                        
+
+
+                        }
+
+                </div>
+            </div>
+</body>
+</html>

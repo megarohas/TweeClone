@@ -1,0 +1,63 @@
+﻿@model WebApp.Models.ZablevaikiResponse
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Регистрация</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/Styles.css" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #F1F1F1;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="panel-success">
+        <div class="panel-heading text-center">
+            <h4>Ввод данных</h4>
+        </div>
+        
+    </div>
+        <div class="panel-body">
+            @using (Html.BeginForm())
+            {
+                @Html.ValidationSummary()
+                <div class="form-group text-center container">
+                    <label>Ваше имя:</label>
+                    @Html.TextBoxFor(x => x.Name, new { @class = "form-control text-center" })
+                </div>
+                <div class="form-group text-center container">
+                    <label>Ваш логин:</label>
+                    @Html.TextBoxFor(x => x.Login, new { @class = "form-control text-center" })
+                </div>
+                <div class="form-group text-center container">
+                    <label>Ваш пассворд:</label>
+                   @Html.PasswordFor(x => x.Password, new { @class = "form-control text-center" })
+                </div>
+                <div class="form-group text-center container">
+                    <label>Да или Нет?</label>
+                    @Html.DropDownListFor(x => x.UsePersData, new[] {
+                            new SelectListItem() { Text = "Да, конечно", Value = Boolean.TrueString},
+                            new SelectListItem() { Text = "Нет, конечно", Value = Boolean.FalseString}
+                        }, "Выберите вариант", new { @class = "form-control text-center" })
+                </div>
+                <br>
+                <div class="text-center">
+                    <input type="submit" value="Зарегистрироваться" class="btn btn-success" />
+                </div>
+            }
+        </div>
+    
+</body>
+</html>

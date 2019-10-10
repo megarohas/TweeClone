@@ -1,0 +1,51 @@
+﻿@model WebApp.Models.Autorize
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Авторизация</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/Styles.css" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #F1F1F1;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="panel-success">
+        <div class="panel-heading text-center">
+            <h4>Ввод данных</h4>
+        </div>
+    </div>
+        <br />
+@using (Html.BeginForm())
+{
+        <div class="form-group text-center container">
+            <label>Логин:</label>
+            @Html.TextBoxFor(x => x.login, new { @class = "form-control text-center" })
+        </div>
+        <div class="form-group text-center container">
+            <label>Пассворд:</label>
+            @Html.PasswordFor(x => x.password, new { @class = "form-control text-center" })
+        </div>
+        <br>
+        <div class="text-center container">
+            <input type="submit" value="Войти" class="btn btn-success" />
+        </div>
+}
+    
+
+</body>
+</html>

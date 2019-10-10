@@ -1,0 +1,139 @@
+﻿/* Set padding to keep content from hitting the edges */
+body{
+    padding-top:105px;
+}
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.blo {
+    border: 1px solid ridge ;
+    background: #ff006e
+}
+
+.panel1 {
+    background: #414141;
+    padding: 10px;
+    padding-top: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display:table;
+    width:100%;
+    border:#d6e9c6 0px solid;
+    color: #ffffff;
+    
+
+}
+
+.panel2 {
+    background: #414141;
+    padding: 10px;
+    padding-top: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display:table;
+    width:100%;
+    border:#d6e9c6 0px solid;
+    color: #ffffff;
+    box-shadow: 0 0 5px #414141;
+    text-shadow: 0 0 3px #161616;
+    -moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+
+.panel1 > div{
+    display:table-cell;
+    vertical-align:top;
+    text-align:left;
+}
+.panel1 > div:last-child
+{
+    padding-left:15px;
+    width:100%;
+
+}
+
+.panel2 > div{
+    display:table-cell;
+    vertical-align:top;
+    text-align:left;
+    -moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+.panel2 > div:last-child
+{
+    padding-left:15px;
+    width:100%;
+    -moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+
+li{
+    list-style:none;
+    margin-left:auto;
+    margin-right:auto;
+}
+ul{
+    padding-left: 0;
+}
+
+.round {
+    border-radius: 100px; /* Радиус скругления */
+     border:#ffffff 1px solid;
+   
+   }
+
+.input[type="file"]{
+
+    display: none;
+}
+
+#bsPhotoGalleryModal .modal-content {
+    border-radius:0;
+}
+#bsPhotoGalleryModal .modal-dialog img {
+    text-align:center;
+    margin:0 auto;
+    width:100%;
+}
+#bsPhotoGalleryModal .modal-body {
+    padding:0px !important;
+}
+#bsPhotoGalleryModal .bsp-close {
+  position: absolute; 
+  right: -14px; 
+  top: -11px; 
+  font-size: 30px; 
+  color:#fff; 
+  text-shadow: 1px 1px 18px #000;
+}
+
+
+
+#gallery {
+	width: 528px;
+	overflow: hidden;
+	margin: 0 auto;
+	background: #f8f8f8;
+	border: 1px solid #c7c7c7;
+	border-radius: 5px;
+}
+#gallery a {
+	display: block;
+	float: left;
+	color: #fff;
+	width: 150px;
+	height: 150px;
+	margin: 8px;
+	padding: 4px;
+	border: 1px solid #c7c7c7;
+	border-radius: 3px;
+}

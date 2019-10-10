@@ -1,0 +1,117 @@
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\ApplicationInsights.config
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\roslyn\csc.exe
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\roslyn\vbc.exe
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\WebApp.dll.config
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\WebApp.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\WebApp.pdb
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\Microsoft.AI.Web.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\System.Web.Helpers.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\System.Web.Mvc.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\System.Web.Razor.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\System.Web.Webpages.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\Microsoft.AI.Web.xml
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\System.Web.Razor.xml
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\System.Web.Webpages.xml
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\System.Web.Helpers.xml
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\System.Web.Mvc.xml
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\ru\System.Web.Razor.resources.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\ru\System.Web.Webpages.resources.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\ru\System.Web.Webpages.Deployment.resources.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\ru\System.Web.Webpages.Razor.resources.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\obj\Debug\WebApp.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\obj\Debug\WebApp.pdb
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\EntityFramework.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\EntityFramework.xml
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\Ninject.dll
+C:\Users\rohas\Google Диск\Проги\Для себя\WebApp\WebApp\bin\Ninject.xml
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\ApplicationInsights.config
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\roslyn\csc.exe
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\roslyn\vbc.exe
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\WebApp.dll.config
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\WebApp.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\WebApp.pdb
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\EntityFramework.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\Microsoft.AI.Web.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\Ninject.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\System.Web.Helpers.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\System.Web.Mvc.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\System.Web.Razor.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\System.Web.Webpages.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\EntityFramework.xml
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\Microsoft.AI.Web.xml
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\Ninject.xml
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\System.Web.Razor.xml
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\System.Web.Webpages.xml
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\System.Web.Helpers.xml
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\System.Web.Mvc.xml
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\ru\System.Web.Razor.resources.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\ru\System.Web.Webpages.resources.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\ru\System.Web.Webpages.Deployment.resources.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\ru\System.Web.Webpages.Razor.resources.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\obj\Debug\WebApp.dll
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\obj\Debug\WebApp.pdb
+C:\Users\rohas\Google Диск\Проги\ТВИТТОР\TweeClone\WebApp\bin\roslyn\desktop.ini

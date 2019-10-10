@@ -1,0 +1,53 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Главная</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <style>
+        .btn a {
+            color: white;
+            text-decoration: none;
+        }
+
+        body {
+            /*background-image: url("../../Content/img/bg.jpg*/
+            background-color: #8a2626;
+            background-size:cover;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            padding-top: 0px;
+            padding-bottom: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+       
+        <div class="text-center">
+            
+
+            <img src="~/Content/img/logo.png" />
+            
+            <br />
+            <div class="btn btn-success">
+                @Html.ActionLink("Нажмите для регистрации", "RegForm")
+            </div>
+            <div class="btn btn-success">
+                @Html.ActionLink("Нажмите для авторизации", "AutoForm")
+            </div>
+        </div>
+         <!--//
+       <p>Мы так нажремся, что вы будете визжать. Шучу, вы заблюетесь и будете ненавидеть себя. А вообще, это - приглашение на детский утренник)</p>
+             -->
+    </div>
+</body>
+</html>

@@ -11,7 +11,28 @@ namespace WebApp
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.MapRoute(
+              name: "Pic",
+              url: "Images/Index/{Pic}",
+              defaults: new { controller = "Images", action = "Index" }
+         );
+
+            //routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.MapRoute(
+               name: "Sub",
+               url: "Home/SubAdd/{n}",
+               defaults: new { controller = "Home", action = "SubAdd" }
+          );
+
+
+
+            routes.MapRoute(
+                "Profile",
+                "{controller}/{action}/{name}",
+                new { controller = "Home", action = "PersTweet"}
+            );
+
+           
 
             routes.MapRoute(
                 name: "Default",
