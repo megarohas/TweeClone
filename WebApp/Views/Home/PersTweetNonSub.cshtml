@@ -1,0 +1,122 @@
+﻿@model WebApp.Models.PostsFromOne
+@{
+    Layout = null;
+}
+
+@using Class1
+@using Class2
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Список постов пользователя @Model.author</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/scripts/jquery-1.10.2.min.js"></script>
+
+
+    <link rel="stylesheet" href="~/Content/font-awesome.min.css">
+    <link rel="stylesheet" href="~/Content/jquery.gallery.min.css">
+
+    <script type="text/javascript" src="~/Content/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="~/Content/jquery.gallery.min.js"></script>
+
+    <style>
+        .btn:visited {
+            color: #fff;
+        }
+
+        body {
+            background-color: #F1F1F1;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #468847;
+        }
+    </style>
+</head>
+<body>
+    <div class="panel-success">
+        <div class="panel-heading text-center">
+            <div>
+
+
+                @Html.ActionLink("Подписаться", "SubAdd", new { n = Model.author }, new { @class = "btn btn-success" })
+
+                @Html.ActionLink("Список всех пользователей", "AllUsers", null, new { @class = "btn btn-success" })
+
+                @Html.ActionLink("Моя страница", "Inbox", null, new { @class = "btn btn-success" })
+
+            </div>
+            <h4>Имя юзера: @Model.author</h4>
+        </div>
+    </div>
+
+    <!--
+         @using (Html.BeginRouteForm("Sub",FormMethod.Get,new { n = Model.author }))
+         {
+             <div class="text-center">
+
+                 <input type="submit" value="Subscribe" class="btn btn-success" />
+             </div>
+         }
+
+    -->
+    <br />
+    <ul id="cycle">
+
+
+        @for (int i = 0; i < Model.Posts.Count; i++)
+            {
+            <li>
+                <br />
+                <div class="container">
+
+                </div>
+                <div class="panel2 text-left container">
+
+                    <div>
+                        <div class="">
+                            <a href='@Url.Action("PersTweet", "Home", new { name = Model.author })'>@Html.ImageSmall(@Model.Ava) </a>
+                        </div>
+                        <br />
+                    </div>
+                    <div class="text-left">
+                        @Html.ActionLink("@" + @Model.author, "PersTweet", new { name = Model.author })
+                        <h5>@Model.Posts[i].text</h5>
+
+
+                        <div class="simple_img_gallery">
+                            @for (int ii = 0; ii < Model.TweeImgs.Count; ii++)
+                            {
+
+                                if (Model.TweeImgs[ii].tweeID == Model.Posts[i].id)
+                                {
+
+                                    <a href=@Html.ImageSmall2(Model.TweeImgs[ii].image)>@Html.ImageSmall3(Model.TweeImgs[ii].image)</a>
+                                }
+
+
+
+                            }
+                        </div>
+                    </div>
+
+                </div>
+
+            </li>
+        }
+
+    </ul>
+
+    <script type="text/javascript">
+    $(function() {
+    $('.simple_img_gallery').createSimpleImgGallery();
+    });
+    </script>
+</body>
+</html>

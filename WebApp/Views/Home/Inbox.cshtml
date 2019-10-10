@@ -1,0 +1,144 @@
+﻿
+@model WebApp.Models.ZablevaikiResponseWP
+
+@{
+    Layout = null;
+}
+
+@using Class1
+@using Class2
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Хоум</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Лента</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/scripts/jquery-1.10.2.min.js"></script>
+
+
+    <link rel="stylesheet" href="~/Content/font-awesome.min.css">
+    <link rel="stylesheet" href="~/Content/jquery.gallery.min.css">
+
+    <script type="text/javascript" src="~/Content/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="~/Content/jquery.gallery.min.js"></script>
+    <style>
+        body {
+            background-color: #F1F1F1;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:  #141414;
+        }
+    </style>
+</head>
+<body>
+    <div class="panel-success">
+        <div class="panel-heading text-center">
+            <div>
+                @Html.ActionLink("Написать пост", "Writer", null, new { @class = "btn btn-success" })
+
+                @Html.ActionLink("Моя лента", "Feed", null, new { @class = "btn btn-success" })
+
+                @Html.ActionLink("Загрузка фото", "Imager", null, new { @class = "btn btn-success" })
+
+                @Html.ActionLink("Список всех пользователей", "AllUsers", null, new { @class = "btn btn-success" })
+
+                @Html.ActionLink("Разлогин", "Exit", null, new { @class = "btn btn-success" })
+            </div>
+            <h4>Моя страница</h4>
+        </div>
+
+        
+    </div>
+        <br />
+    <div class="text-center">
+        <h2>Инфо профиля</h2>
+    </div>
+        <div class="text-center container">
+            <div class="panel2">
+
+                @Html.Image(@Model.UP.image)
+
+                <br />
+                <h3>Имя юзера: @Model.USER.Name</h3>
+                <h3>Ник юзера: @Model.USER.Login</h3>
+                @if (@Model.USER.Name == "False")
+                {
+                    <h3>Да или Нет: Нет</h3>
+                }
+                else
+                {
+                    <h3>Да или Нет: Да</h3>
+                }
+            </div>
+        </div>
+
+<br/>
+    <div class="text-center">
+        <h2>Посты</h2>
+    </div>
+    <ul id="cycle">
+
+
+        @for (int i = 0; i < Model.Tweets.Count; i++)
+            {
+            <li>
+                <br />
+                <div class="container">
+
+                </div>
+                <div class="panel2 text-left container">
+
+                    <div>
+                        <div class="">
+                            <a href='@Url.Action("PersTweet", "Home", new { name = Model.USER.Login })'>@Html.ImageSmall(@Model.UP.image) </a>
+                        </div>
+                        <br />
+                    </div>
+                    <div class="text-left">
+                        @Html.ActionLink("@" + @Model.USER.Login, "PersTweet", new { name = Model.USER.Login })
+                        <h5>@Model.Tweets[i].text</h5>
+
+
+                        <div class="simple_img_gallery">
+                            @for (int ii = 0; ii < Model.Imgs.Count; ii++)
+                            {
+
+                                if (Model.Imgs[ii].tweeID == Model.Tweets[i].id)
+                                {
+
+                                    <a href=@Html.ImageSmall2(Model.Imgs[ii].image)>@Html.ImageSmall3(Model.Imgs[ii].image)</a>
+                                }
+
+
+
+                            }
+                        </div>
+                    </div>
+
+                </div>
+
+            </li>
+        }
+
+    </ul>
+
+
+
+    <script type="text/javascript">
+    $(function() {
+    $('.simple_img_gallery').createSimpleImgGallery();
+    });
+    </script>
+
+
+
+
+
+</body>
+</html>

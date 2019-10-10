@@ -1,0 +1,96 @@
+﻿@model WebApp.Models.FeedPostModel
+@{
+    Layout = null;
+}
+@using Class2;
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Лента</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/scripts/jquery-1.10.2.min.js"></script>
+    
+
+    <link rel="stylesheet" href="~/Content/font-awesome.min.css">
+    <link rel="stylesheet" href="~/Content/jquery.gallery.min.css">
+
+    <script type="text/javascript" src="~/Content/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="~/Content/jquery.gallery.min.js"></script>
+
+
+    <style>
+       body {
+            background-color: #F1F1F1;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="panel-success">
+        <div class="panel-heading text-center">
+            <div>
+                @Html.ActionLink("Моя страница", "Inbox", null, new { @class = "btn btn-success" })
+            </div>
+            <h4>Моя лента</h4>       
+         </div>
+        </div>
+        <ul id="cycle">
+
+         
+            @for (int i = 0; i < Model.FeedPost.Count; i++)
+            {
+                <li>
+                    <br />
+                    <div class="container">
+                       
+                        </div>
+                        <div class="panel2 text-left container">
+                            
+                            <div>
+                                <div class="">
+                                    <a href='@Url.Action("PersTweet", "Home", new { name = Model.FeedPost[i].author })'>@Html.ImageSmall(@Model.FeedPic.Find(x => x.author == Model.FeedPost[i].author).image) </a>
+                                </div>
+                                    <br />
+                                </div>                         
+                                <div class="text-left">
+                                    @Html.ActionLink("@"+ @Model.FeedPost[i].author, "PersTweet", new { name = Model.FeedPost[i].author })   
+                                    <h5>@Model.FeedPost[i].text</h5>
+                                   
+
+                                    <div class="simple_img_gallery">
+                                        @for (int ii = 0; ii < Model.TweeImgs.Count; ii++)
+                                        {
+
+                                            if (Model.TweeImgs[ii].tweeID == Model.FeedPost[i].id)
+                                            {
+
+                                                <a href=@Html.ImageSmall2(Model.TweeImgs[ii].image)>@Html.ImageSmall3(Model.TweeImgs[ii].image)</a>
+                                            }
+
+
+
+                                        }
+                                    </div>      
+                              </div>
+                               
+                       </div>
+                   
+                </li>
+            }
+
+        </ul>
+
+
+
+
+    <script type="text/javascript">
+    $(function() {
+    $('.simple_img_gallery').createSimpleImgGallery();
+    });
+    </script>
+</body>
+</html>

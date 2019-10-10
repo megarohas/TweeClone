@@ -1,0 +1,39 @@
+﻿
+@model WebApp.Models.ZablevaikiResponse
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Спасибо за регистрацию</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <style>
+         body {
+            background-color: #F1F1F1;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:  #141414;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="text-center">
+        
+        <h1>Спасибо, @Model.Name!</h1>
+        <h5> Мы рады, что Вы зарегистрировались</h5>
+        <div class="panel-heading text-center">
+            <div>
+                @Html.ActionLink("На начальную страничку", "Index",null, new { @class = "btn btn-success" })
+            </div>
+           
+        </div>
+       
+    </div>
+</body>
+</html>
