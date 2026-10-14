@@ -1,0 +1,8 @@
+# Third-party libraries: keep them out of GitHub's language stats
+packages/** linguist-vendored
+WebApp/scripts/** linguist-vendored
+WebApp/Content/jquery* linguist-vendored
+WebApp/Content/lightgallery* linguist-vendored
+WebApp/Content/material-photo-gallery* linguist-vendored
+WebApp/Content/bootstrap* linguist-vendored
+WebApp/Content/font-awesome* linguist-vendored
